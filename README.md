@@ -72,3 +72,35 @@ Programa lea la longitud de los catetos de un triángulo rectángulo y calcule l
 
 Tip: Quizas puedas usar la clase Math de java.
 
+
+## Ejercicio 6: Busqueda secuencial.
+
+Leer sobre busqueda secuencial.
+
+Dado un arreglo de enteros 
+
+int arr[] = {2,5,1,435,4576,4,2,6,7,123,431,12,64,21,1,3,6,1,35,6,7,10,55,32,66,76,123,544,223,459,2};
+
+
+Se pide al usuario ingresar un numero y debemos determinar:
+
+* Si ese elemento se encuentra dentro del arreglo o no.
+* Si aparece, la cantidad de veces que aparece.
+* La posicion en la que se encuentra en todos sus casos.
+
+## Ejercicio 7: Busqueda binaria
+
+
+Dado un arreglo de enteros ordenado de manera ascendente, utilizar el algoritmo de busqueda binaria para encontrar un valor introducido por el usuario e informar por pantalla en que posición se encontraba dentro del arreglo.
+
+int arr[] = {1,3,5,7,9,11,12,33,42,45,50,55,56,67,73,77,79,88,123,125,200,201,203}
+
+## Ejercicio 8: Ordenamiento
+
+Dado un arreglo de enteros 
+
+int arr[] = {2,5,1,435,4576,4,2,6,7,123,431,12,64,21,1,3,6,1,35,6,7,10,55,32,66,76,123,544,223,459,2};
+
+Ordenarlo de forma ascendente. No vale utilizar metodos de los arreglos.
+
+Se puede utilizar cualquier metodo de ordenamiento. (Leer sobre algoritmos de ordenamiento). (ordenamiento Burbuja, ordenamiento de inserción, ordenamiento de selección)
