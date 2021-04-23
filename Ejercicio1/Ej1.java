@@ -27,13 +27,16 @@ public class Ej1 {
 	
 	public static void main (String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		int numero;
-		System.out.print("Por favor ingrese un numero: "); //si se ingresa -1 como primer valor, el programa no finalizara.
-		numero = entrada.nextInt();
+		int numero=0;
+	
 		ArrayList lista = new ArrayList();
-		int numMen= numero, numMay= numero, sumTotal= 1, sumaP= 0, sumaN= 0, promedio= 0, cont= 0;
+		int numMen= numero, numMay= numero, sumTotal= numero, sumaP= 0, sumaN= 0, promedio= 0, cont= 0;
 		
-		do {
+		while (numero != -1){
+			
+			System.out.print("Por favor ingrese otro numero: ");
+			numero= entrada.nextInt();
+			
 			if (numero > numMay){
 				numMay= numero;}
 			if (numero <  numMen){
@@ -42,13 +45,14 @@ public class Ej1 {
 				sumaP += numero;}
 			if (numero < 0){
 				sumaN += numero;}
-			lista.add(numero);
-			System.out.print("Por favor ingrese otro numero: ");
-			numero= entrada.nextInt();
-			sumTotal += numero;
-			cont++;
+				sumTotal += numero;
+				cont++;
 			
-		}while (numero != -1);
+			lista.add(numero);
+			
+			
+			
+		}
 		
 		promedio= sumTotal / cont;
 		
