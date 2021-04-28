@@ -48,17 +48,17 @@ Ahora vamos a jugar a la “Lotería primitiva”. Para ello, se pedirá al usua
 Ejemplo de ejecución:
 
 Elige 6 numeros entre el 1 y el 49.
-Elige el numero 1 : 3
-Elige el numero 2 : 8
-Elige el numero 3 : 14
-Elige el numero 4 : 2
-Elige el numero 5 : 34
-Elige el numero 6 : 38
-Numeros Elegidos    : 3  8  14  2  34  38
-Combinación ganadora : 6  14   21  27  30  48
-Has acertado : 1 números
-Quieres probar otra vez ? (S/N) : n
-Adiós
+- Elige el numero 1 : 3
+- Elige el numero 2 : 8
+- Elige el numero 3 : 14
+- Elige el numero 4 : 2
+- Elige el numero 5 : 34
+- Elige el numero 6 : 38
+- Numeros Elegidos    : 3  8  14  2  34  38
+- Combinación ganadora : 6  14   21  27  30  48
+- Has acertado : 1 números
+- Quieres probar otra vez ? (S/N) : n
+- Adiós
 
 ## Ejercicio 4
 
